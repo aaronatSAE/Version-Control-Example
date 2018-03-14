@@ -7,7 +7,7 @@ public class Clicker : MonoBehaviour
     [SerializeField]
     GameObject cubePrefab;
 
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetMouseButton(0))
         {
