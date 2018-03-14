@@ -91,7 +91,11 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
+<<<<<<< HEAD
 >>>>>>> ca08794daacf5888b17adaf5a4a17d48d741a98b
+=======
+    m_ShowResolutionOverlay: 1
+>>>>>>> parent of c50dc00... Change to sphere
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -218,6 +222,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 114640014893201566, guid: 6a09d150e0e5c3c45aad13db67f29d49,
         type: 2}
 <<<<<<< HEAD
@@ -274,6 +279,8 @@ Prefab:
       propertyPath: image
       value: 
       objectReference: {fileID: 1470215568}
+=======
+>>>>>>> parent of c50dc00... Change to sphere
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6a09d150e0e5c3c45aad13db67f29d49, type: 2}
   m_IsPrefabParent: 0

@@ -10,12 +10,16 @@ public class Clicker : MonoBehaviour
 	public Image image;
 	public float currentImageColorAlpha = 0.0f;
 
+<<<<<<< HEAD
 	void start()
 	{
 		image = GetComponent<Image> ();
 		currentImageColorAlpha = image.color.a;
 	}
 	void Update()
+=======
+    void Update()
+>>>>>>> parent of c50dc00... Change to sphere
     {
         if (Input.GetMouseButton(0))
         {
