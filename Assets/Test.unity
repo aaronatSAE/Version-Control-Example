@@ -217,6 +217,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114640014893201566, guid: 6a09d150e0e5c3c45aad13db67f29d49,
+        type: 2}
+      propertyPath: spherePrefab
+      value: 
+      objectReference: {fileID: 1035464084646220, guid: c6e8336ace61be544b0848d2c0e0d218,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6a09d150e0e5c3c45aad13db67f29d49, type: 2}
   m_IsPrefabParent: 0
@@ -283,6 +289,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
