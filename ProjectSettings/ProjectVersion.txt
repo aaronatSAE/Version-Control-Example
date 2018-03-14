@@ -1,9 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 m_EditorVersion: 2017.1.1f1
 =======
 m_EditorVersion: 2017.2.0f3
 >>>>>>> 779a4eb43a4cbfb92829a554fa034768fdfdffb8
+=======
+m_EditorVersion: 2017.2.1f1
+>>>>>>> parent of c50dc00... Change to sphere
 =======
 m_EditorVersion: 2017.2.1f1
 >>>>>>> parent of c50dc00... Change to sphere
