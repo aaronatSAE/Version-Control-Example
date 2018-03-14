@@ -1,16 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Clicker : MonoBehaviour
 {
     [SerializeField]
     GameObject cubePrefab;
+	public Image image;
+	public float currentImageColorAlpha = 0.0f;
 
-    void Update()
+	void start()
+	{
+		image = GetComponent<Image> ();
+		currentImageColorAlpha = image.color.a;
+	}
+	void Update()
     {
         if (Input.GetMouseButton(0))
         {
+			currentImageColorAlpha += 0.1f;
             GameObject newCube = Instantiate(cubePrefab, RandomVector(5f), Random.rotation) as GameObject;
             newCube.GetComponent<Rigidbody>().AddForce(RandomVector(500f));
             newCube.GetComponent<Rigidbody>().AddTorque(RandomVector(10f));

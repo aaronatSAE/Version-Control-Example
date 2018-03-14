@@ -32,4 +32,8 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+<<<<<<< HEAD
 Assets/TestWtext.unity
+=======
+Assets/Clicker.cs
+>>>>>>> ca08794daacf5888b17adaf5a4a17d48d741a98b
